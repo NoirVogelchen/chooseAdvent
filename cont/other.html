@@ -1,0 +1,29 @@
+<html>
+<head>
+<link rel="stylesheet" href="../Styles.css"> 
+<script type="text/javascript" src="../js.js"></script>
+</head>
+
+<body> 
+
+<form name="libForm" method="post" onsubmit="return formSubmit();"
+ action="">
+
+Island Name:<input type="text" id="islandName"><br>
+
+Island Biome (Tropical, Forest, etc): <input type="text" name="biome" id="biome"> <br>
+
+Place (Store, Friends Home, etc): <input type="text" name="place" id="place"><br>
+
+Number: <input type="text" name="number" id="number"><br>
+
+<input type="submit" value="Submit">
+</form>  
+<hr>
+<div class="formData">
+  <p id="errors"></p>
+  <p id="formResult"></p>
+</div>
+</form>
+</body>
+</html>

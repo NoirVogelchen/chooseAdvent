@@ -1,0 +1,21 @@
+body
+{
+	background-color: lightblue;
+	margin: auto;
+	border: 10%;
+	padding: 10%;
+	text-align: center;
+}
+p
+{
+	color: black;
+	font-size: 40px;
+	float: center;
+	
+}
+button
+{
+	font-size: 50px;
+	padding: 5%;
+	
+}
