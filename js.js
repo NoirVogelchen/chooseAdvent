@@ -1,5 +1,6 @@
 var formErrors = '';
 
+var thisIsForRevert;
 
 var anythingRegex = /^.+$/;
 var numberRegex = /^\d+$/;
